@@ -27,7 +27,7 @@ namespace gatormoisture {
     //%
     uint16_t getmoisture(int16_t ADCVal) {
 
-        return ADCVal / 1023.0;
+        return ADCVal / 10.0;
     }
 
 }
