@@ -1,7 +1,7 @@
 /**
 * Andy England @ SparkFun Electronics
 * September 6, 2018
-* https://github.com/sparkfun/pxt-light-bit
+* https://github.com/sparkfun/pxt-moisture-bit
 *
 * Development environment specifics:
 * Written in Microsoft PXT
@@ -20,14 +20,14 @@
 
 using namespace pxt;
 
-namespace gatorlight {
+namespace gatormoisture {
     /*
-    * Calculates the light in Lux based on the ADC value passed in. 1 step in adcVal is equal to .488 uA or .976 lux at 5V
+    * Calculates the moisture in moisture based on the ADC value passed in. 1 step in adcVal is equal to .488 uA or .976 moisture at 5V
     */
     //%
-    uint16_t getLux(int16_t ADCVal) {
+    uint16_t getmoisture(int16_t ADCVal) {
 
-        return ADCVal * .976;
+        return ADCVal / 1023.0;
     }
 
 }

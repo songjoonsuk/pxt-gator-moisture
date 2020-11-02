@@ -4,7 +4,7 @@
     /**
      * Andy England @ SparkFun Electronics
      * September 6, 2018
-     * https://github.com/sparkfun/pxt-light-bit
+     * https://github.com/sparkfun/pxt-moisture-bit
      *
      * Development environment specifics:
      * Written in Microsoft PXT
@@ -16,7 +16,7 @@
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace gatorlight {
+declare namespace gatormoisture {
 }
 
 // Auto-generated. Do not edit. Really.
