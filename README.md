@@ -5,7 +5,7 @@
 The gator:starter, which includes the gator:light and gator:temp can be purchased [here.](https://www.sparkfun.com/products/14891)
 The gator:light, included on the gator:starter is an analog light sensor that can be alligator clipped to the micro:bit or gator:bit board.
 
-![gator:moisture](https://raw.githubusercontent.com/songjoonsuk/pxt-gator-moisture/blob/master/icon.png)  
+![gator:moisture](https://raw.githubusercontent.com/songjoonsuk/pxt-gator-moisture/master/icon.png)  
 
 ## ~ hint
 
