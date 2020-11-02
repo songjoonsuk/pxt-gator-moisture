@@ -1,0 +1,5 @@
+{
+  "gatormoisture.moisture|block": "핀 %pin의 습도값 출력 | 선택 %gatormoistureType",
+  "gatormoisture|block": "gatormoisture",
+  "{id:category}Gatormoisture": "Gatormoisture"
+}
