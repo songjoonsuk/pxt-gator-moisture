@@ -1,5 +1,5 @@
 {
-  "gatormoisture.moisture|block": "핀 %pin에 연결된 %gatormoistureType의 출력 값" ,
+  "gatormoisture.moisture|block": "핀 %pin에 관계된 %gatormoistureType 값" ,
   "gatormoisture|block": "gatormoisture",
   "{id:category}Gatormoisture": "Gatormoisture"
 }
