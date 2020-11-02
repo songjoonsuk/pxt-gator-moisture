@@ -11,11 +11,11 @@
      *
      * This code is released under the [MIT License](http://opensource.org/licenses/MIT).
      * Please review the LICENSE.md file included with this example. If you have any questions
-     * or concerns with licensing, please contact techsupport@sparkfun.com.
+     * or concerns with licensing, please contact joonsuk0208@gmail.com.
      * Distributed as-is; no warranty is given.
      */
 
-declare namespace gatormoisture {
+declare namespace edubit {
 }
 
 // Auto-generated. Do not edit. Really.

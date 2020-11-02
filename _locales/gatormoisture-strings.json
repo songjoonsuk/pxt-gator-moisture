@@ -1,5 +1,5 @@
 {
-  "gatormoisture.moisture|block": "Get moisture on pin %pin | in %gatormoistureType",
-  "gatormoisture|block": "gatormoisture",
-  "{id:category}Gatormoisture": "Gatormoisture"
+  "edubit.moisture|block": "Get moisture on pin %pin | in %gatormoistureType",
+  "edubit|block": "edubit",
+  "{id:category}Edubit": "Edubit"
 }

@@ -1,5 +1,5 @@
 {
-  "gatormoisture.moisture|block": "핀 %pin에 관계된 %gatormoistureType 값" ,
-  "gatormoisture|block": "gatormoisture",
-  "{id:category}Gatormoisture": "Gatormoisture"
+  "edubit.moisture|block": "%pin 핀을 퐁한 | %gatormoistureType 값",
+  "edubit|block": "edubit",
+  "{id:category}Edubit": "Edubit"
 }

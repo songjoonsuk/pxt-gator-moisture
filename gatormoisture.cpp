@@ -10,7 +10,7 @@
 *
 * This code is released under the [MIT License](http://opensource.org/licenses/MIT).
 * Please review the LICENSE.md file included with this example. If you have any questions
-* or concerns with licensing, please contact techsupport@sparkfun.com.
+* or concerns with licensing, please contact joonsuk0208@gmail.com.
 * Distributed as-is; no warranty is given.
 */
 
@@ -20,7 +20,7 @@
 
 using namespace pxt;
 
-namespace gatormoisture {
+namespace edubit {
     /*
     * Calculates the moisture in moisture based on the ADC value passed in. 1 step in adcVal is equal to .488 uA or .976 moisture at 5V
     */

@@ -9,13 +9,13 @@
 *
 * This code is released under the [MIT License](http://opensource.org/licenses/MIT).
 * Please review the LICENSE.md file included with this example. If you have any questions
-* or concerns with licensing, please contact techsupport@sparkfun.com.
+* or concerns with licensing, please contact joonsuk0208@gmail.com.
 * Distributed as-is; no warranty is given.
 */
 
 
 /**
- * Functions to operate the gatormoisture sensor
+ * Functions to operate the edubit sensor
  */
 
  enum gatormoistureType{
@@ -26,14 +26,14 @@
 
 
 //% color=#f44242 icon="\uf185"
-namespace gatormoisture {
+namespace edubit {
 
     // Functions for reading moisture from the gatormoisture in moisture or straight adv value
 
     /**
     * Reads the number
     */
-    //% weight=30 blockId="gatormoisture_moisture" block="Get moisture on pin %pin | in %gatormoistureType"
+    //% weight=30 blockId="edubit_moisture" block="Get moisture on pin %pin | in %gatormoistureType"
     export function moisture(pin: AnalogPin, type: gatormoistureType): number{
       let ADCVal = pins.analogReadPin(pin)
       switch(type){
@@ -46,7 +46,7 @@ namespace gatormoisture {
 	/**
      * Function used for simulator, actual implementation is in gatormoisture.cpp
      */
-    //% shim=gatormoisture::getmoisture
+    //% shim=edubit::getmoisture
     function getmoisture(ADCVal: number) {
         // Fake function for simulator
         return 0
