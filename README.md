@@ -1,37 +1,36 @@
-# gator:light Light Sensor
+# gator:moisture moisture Sensor
 
-[![Community Discord](https://img.shields.io/discord/448979533891371018.svg)](https://aka.ms/makecodecommunity)
 
-The gator:starter, which includes the gator:light and gator:temp can be purchased [here.](https://www.sparkfun.com/products/14891)
-The gator:light, included on the gator:starter is an analog light sensor that can be alligator clipped to the micro:bit or gator:bit board.
+The gator:starter, which includes the gator:moisture and gator:temp can be purchased [here.](https://www.sparkfun.com/products/14891)
+The gator:moisture, included on the gator:starter is an analog moisture sensor that can be alligator clipped to the micro:bit or gator:bit board.
 
 ![gator:moisture](https://raw.githubusercontent.com/songjoonsuk/pxt-gator-moisture/master/icon.png)  
 
 ## ~ hint
 
-To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator-light**. The package is located [here](https://makecode.microbit.org/pkg/sparkfun/pxt-gator-light)
+To use this package, go to https://makecode.microbit.org, click ``Add package`` and search for **gator-moisture**. The package is located [here](https://github.com/songjoonsuk/pxt-gator-moisture)
 
 ## ~
 
 ## Basic usage
 
 ```blocks
-//Sets the value of the light variable to the value read from the gator:light
-let light = 0
-light = gatorlight.light(AnalogPin.P0, gatorlightType.Lux)
+//Sets the value of the moisture variable to the value read from the gator:moisture
+let moisture = 0
+moisture = gatormoisture.moisture(AnalogPin.P0, gatormoistureType.moisture)
 ```
 
-Use ``||Get light on pin||`` to read the light value from a gator:light sensor attached to a given pin in lux or the straight ADC value.
+Use ``||Get moisture on pin||`` to read the moisture value from a gator:moisture sensor attached to a given pin in moisture or the straight ADC value.
 
-## Example: Light Detector
+## Example: moisture Detector
 
 ```blocks
-//Read light value and write it to the micro:bit screen as a bar graph.
-let light = 0
+//Read moisture value and write it to the micro:bit screen as a bar graph.
+let moisture = 0
 basic.forever(function () {
-    light = gatorlight.light(AnalogPin.P0, gatorlightType.Lux)
+    moisture = gatormoisture.moisture(AnalogPin.P0, gatormoistureType.moisture)
     led.plotBarGraph(
-        light,
+        moisture,
         1023
     )
 })
