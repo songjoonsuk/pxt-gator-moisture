@@ -25,9 +25,9 @@ namespace edubit {
     * Calculates the moisture in moisture based on the ADC value passed in. 1 step in adcVal is equal to .488 uA or .976 moisture at 5V
     */
     //%
-    uint16_t getmoisture(int16_t ADCVal) {
+    float getmoisture(int16_t ADCVal) {
 
-        return ADCVal / 10.0;
+        return ADCVal / 1023.0;
     }
 
 }
