@@ -14,6 +14,7 @@
         "enums.d.ts",
         "_locales/ko/gatormoisture-strings.json",
         "_locales/ko/gatormoisture-jsdoc-strings.json"
+
     ],
     "testFiles": [],
     "public": true
